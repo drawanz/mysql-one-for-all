@@ -8,4 +8,4 @@ FROM
     SpotifyClone.album AS al ON a.artista_id = al.artista_id
 		INNER JOIN
 	SpotifyClone.artista_favorito AS af ON a.artista_id = af.artista_id
-GROUP BY a.artista, al.album ORDER BY seguidores DESC;
+GROUP BY a.artista, al.album ORDER BY seguidores DESC, artista ASC, album ASC;
