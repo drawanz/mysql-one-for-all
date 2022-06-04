@@ -79,8 +79,8 @@ VALUES
 	('Walter Phoenix'), 
 	('Peter Strong'), 
 	('Lance Day'), 
-    ('Tyler Isle'), 
 	('Freedie Shannon'), 
+	('Tyler Isle'), 
 	('Fog');
 
 INSERT INTO SpotifyClone.artista_favorito (usuario_id, artista_id)
@@ -110,15 +110,15 @@ VALUES
 
 INSERT INTO SpotifyClone.album (artista_id, album, ano_lancamento)
 VALUES 
-	(1, 'Envious', 1990), 
-    (1, 'Exuberant', 1993), 
-	(2, 'Hallowed Steam', 1995), 
-    (3, 'Incandescent', 1998), 
-    (4, 'Temporary Culture', 2001), 
-    (4, 'Library of liberty', 2003), 
-	(5, 'Chained Down', 2007), 
-    (5, 'Cabinet of fools', 2012), 
-    (5, 'No guarantees', 2015), 
+    (1, 'Envious', 1990),
+    (1, 'Exuberant', 1993),
+    (2, 'Hallowed Steam', 1995),
+    (3, 'Incandescent', 1998),
+    (4, 'Temporary Culture', 2001),
+    (4, 'Library of liberty', 2003),
+    (5, 'Chained Down', 2007),
+    (5, 'Cabinet of fools', 2012),
+    (5, 'No guarantees', 2015),
     (6, 'Apparatus', 2015);
 
 INSERT INTO SpotifyClone.cancao (album_id, cancao, duracao_segundos)
